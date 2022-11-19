@@ -1,0 +1,375 @@
+<?php
+$void = 'javascript:void(0)';
+?>
+@extends('layout')
+
+@section('title',"Welcome")
+
+@section('content')
+ @include('home-banner')
+
+  <!-- Section: Intro -->
+  <section class="bg-silver-light">
+      <div class="container">
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-uppercase text-theme-colored mt-0">Need to take care of your Currency Investments</h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <p> Cryptocurrency is for everyone <br>Fidelity Instant has made investing simple for millions around the world. Join the other 10 million users.</p>
+            </div>
+          </div>
+          <div class="row mt-40">
+            <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40">
+              <div class="post bg-white">
+                <div class="thumb">
+                <img class="img-fullwidth" src="images/about/1.jpg" alt="">
+                </div>
+                <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
+                    <i class="fa fa-dollar text-white"></i>
+                  </a>
+                  <h3 class="icon-box-title">Currency Investment</h3>
+                  <p class="text-gray">If you're willing to invest your time and money in the financial markets, but aren't sure you have the skill or experience, we have the perfect solution.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40">
+              <div class="post bg-white">
+                <div class="thumb">
+                <img class="img-fullwidth" src="images/about/2.jpg" alt="">
+                </div>
+                <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
+                    <i class="fa fa-btc text-white"></i>
+                  </a>
+                  <h3 class="icon-box-title">Bitcoin Investment</h3>
+                  <p class="text-gray">Invest in the most lucrative cryptocurrencies and Follow the movements of your favourite cryptocurrencies in real time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0">
+              <div class="post bg-white">
+                <div class="thumb">
+                <img class="img-fullwidth" src="images/about/3.jpg" alt="">
+                </div>
+                <div class="entry-content icon-box p-40 mb-sm-50 border-bottom-2px border-theme-colored2 iconbox-theme-colored2 position-relative">
+                  <a class="icon icon-top bg-theme-colored2 icon-circled icon-border-effect effect-circled" href="{{$void}}">
+                    <i class="fa fa-exchange text-white"></i>
+                  </a>
+                  <h3 class="icon-box-title">Bitcoin Exchange</h3>
+                  <p class="text-gray">We're building a platform without digital walls and complex barriers. A platform that empowers you to see new possibilities for your money - and helps make them a reality.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Section: About -->
+     <section>
+      <div class="container">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-details mb-sm-30">
+                <h2 class="mt-0 text-theme-colored">Buy, sell and Exchange all you need to know about bitcoin</h2>
+                <p>
+                FidelityInstant was founded in 2003 in Vienna, Austria with the aim of making investing accessible for everyone. Our goals since day one was to reimagine what it means to invest, by making simple, easy-to-use financial products for everyone.
+
+Now, 19 years later, and with more than 730 team members and 3.5 million users, we're one of the fastest growing fintechs in the world. With a PSD2 payment service provider licence, state-of-the-art security and streamlined user experience, we make it possible for both first-time investors and seasoned experts to invest in what they believe in. 
+
+Our user-friendly, trade-everything platform empowers you to invest in the stocks, cryptocurrencies and metals you want — with any amount of money.
+                </p>
+                <div class="singnature mt-20">
+                  <img src="images/signature.png" alt="img1">
+                </div>
+                <a href="{{$void}}" class="btn btn-flat btn-colored btn-theme-colored2 mt-15 mr-15">Read More</a><a href="{{$void}}" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a>
+              </div>
+            </div>
+            <div class="col-md-6 hidden-sm">
+              <div class="row mb-10">
+                <div class="col-sm-6 col-md-5 pr-5 pr-sm-15 mb-sm-10">
+                  <div class="box-hover-effect effect-barlin">
+                    <div class="effect-wrapper">
+                      <div class="thumb">
+                        <img class="img-fullwidth" src="images/about/a2.jpg" alt="">
+                      </div>
+                      <div class="overlay-shade bg-theme-colored-gradient"></div>
+                      <div class="text-holder text-holder-middle text-center">
+                        <div class="text_holder_inner">
+                          <div class="text_holder_inner2">
+                            <h3 class="title1 text-white mb-0">Title Here</h3>
+                            <h5 class="title2 text-white mt-5">Cryptocurrency</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-7 pl-5 pl-sm-15">
+                  <div class="box-hover-effect effect-barlin">
+                    <div class="effect-wrapper">
+                      <div class="thumb">
+                        <img class="img-fullwidth" src="images/about/a3.jpg" alt="">
+                      </div>
+                      <div class="overlay-shade bg-theme-colored-gradient"></div>
+                      <div class="text-holder text-holder-middle text-center">
+                        <div class="text_holder_inner">
+                          <div class="text_holder_inner2">
+                            <h3 class="title1 text-white mb-0">Title Here</h3>
+                            <h5 class="title2 text-white mt-5">Cryptocurrency</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-7 pr-5 pr-sm-15 mb-sm-10">
+                  <div class="box-hover-effect effect-barlin">
+                    <div class="effect-wrapper">
+                      <div class="thumb">
+                        <img class="img-fullwidth" src="images/about/a4.jpg" alt="">
+                      </div>
+                      <div class="overlay-shade bg-theme-colored-gradient"></div>
+                      <div class="text-holder text-holder-middle text-center">
+                        <div class="text_holder_inner">
+                          <div class="text_holder_inner2">
+                            <h3 class="title1 text-white mb-0">Title Here</h3>
+                            <h5 class="title2 text-white mt-5">Cryptocurrency</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-5 pl-5 pl-sm-15">
+                  <div class="box-hover-effect effect-barlin">
+                    <div class="effect-wrapper">
+                      <div class="thumb">
+                        <img class="img-fullwidth" src="images/about/a5.jpg" alt="">
+                      </div>
+                      <div class="overlay-shade bg-theme-colored-gradient"></div>
+                      <div class="text-holder text-holder-middle text-center">
+                        <div class="text_holder_inner">
+                          <div class="text_holder_inner2">
+                            <h3 class="title1 text-white mb-0">Title Here</h3>
+                            <h5 class="title2 text-white mt-5">Cryptocurrency</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Choose us -->
+    <section id="service" class="bg-lighter">
+      <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h2 class="text-uppercase mt-0">Why Choose <span class="text-theme-colored2"> Fidelity Instant</span></h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <p>FidelityInstant is backed by a team of world-class experts and the best technology talent. To stay at the forefront of innovation, we're always working on strengthening our position as Europe's leading digital asset platform.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f1.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Manage your portfolio</h4>
+                  <p>Buy and sell popular digital currencies, keep track of them in the one place. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f2.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Recurring buys</h4>
+                  <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f3.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Investment Banking</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam .</p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f4.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Safe and Secure</h4>
+                  <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f5.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Investment Planning</h4>
+                  <p>All USD cash balances are covered by FDIC insurance, up to a maximum of $250,000. </p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon-box bg-white left media border-3px bg-hover-theme-colored mb-30 p-30 pb-20"> 
+                <a href="{{$void}}" class="media-left pull-left"><img src="images/flaticon-png/small/f6.png" alt="" width="64"></a>
+                <div class="media-body">
+                  <h4 class="media-heading heading">Instant Trading</h4>
+                  <p>We support trading on a variety of the most popular digital currencies in real-time.</p>
+                  <a href="{{$void}}" class="text-theme-colored2">Read More →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider: Funfact -->
+    <section class="divider parallax layer-overlay overlay-theme-colored-8" data-bg-img="images/bg/bh7.jpg" data-parallax-ratio="0.7" style="background-image: url(&quot;images/bg/bh7.jpg&quot;); background-position: 50% 377px;">
+      <div class="container">
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="mt-0 mb-30 text-white">Invest in Cryptocurrency <br> Bitcoin Mining &amp; Easy Way to Trade Bitcoin.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="funfact text-center">
+              <h2 data-animation-duration="2000" data-value="5248" class="animate-number text-white font-48 font-weight-500 appeared">5,248</h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <h4 class="text-white text-uppercase mb-0">Transactions last 24h</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+            <div class="funfact text-center">
+              <h2 data-animation-duration="2000" data-value="275" class="animate-number text-white font-48 font-weight-500 appeared">275</h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <h4 class="text-white text-uppercase mb-0">Transactions per hour</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+            <div class="funfact text-center">
+              <h2 data-animation-duration="2000" data-value="1252" class="animate-number text-white font-48 font-weight-500 appeared">1,252</h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <h4 class="text-white text-uppercase mb-0">Largest Transactions</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-0">
+            <div class="funfact text-center">
+              <h2 data-animation-duration="2000" data-value="13" class="animate-number text-white font-48 font-weight-500 appeared">13</h2>
+              <div class="diamond-line-centered-theme-colored2"></div>
+              <h4 class="text-white text-uppercase mb-0">Years of Experience</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    @include('home-services')
+
+     <!-- Divider: Reservation Form -->
+     <section id="reservation" class="divider parallax layer-overlay overlay-theme-colored-8" data-bg-img="images/bg/bh9.jpg" data-parallax-ratio="0.7" style="background-image: url(&quot;images/bg/bh9.jpg&quot;); background-position: 50% 424px;">
+      <div class="container pt-10 pb-0">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="mt-50">
+                <h3 class="text-white font-28 font-weight-600 mt-0 mb-20">Request a Call Back </h3>
+                <div class="diamond-line-left-theme-colored2"></div>
+                <p class="text-white mt-15 mb-30">Reach out to us for more inquiries or just to say hi:</p>
+                <h5 class="text-white">I am interested to discuss about:</h5>
+                <!-- Reservation Form Start-->
+                <form id="reservation_form2" class="reservation-form form-transparent" method="post" action="{{url('reservation')}}" novalidate="novalidate">
+                  {!! csrf_field() !!} 
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group mb-20">
+                        <input placeholder="Enter Name" id="reservation_name" name="name" required="" class="form-control" aria-required="true" type="text">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group mb-20">
+                        <input placeholder="Email" id="reservation_email" name="email" class="form-control" required="" aria-required="true" type="text">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group mb-20">
+                        <div class="styled-select">
+                        <input placeholder="Your occupation" id="reservation_occupation" name="occupation" class="form-control" required="" aria-required="true" type="text">
+                        </div>
+                      </div>
+                    </div>                 
+                    <div class="col-sm-3">
+                      <div class="form-group mb-0 mt-0">
+                        <input name="form_botcheck" class="form-control" value="" type="hidden">
+                        <button type="submit" class="btn btn-theme-colored2 btn-block pt-10 pb-10">Submit Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <!-- Reservation Form End-->
+
+                <!-- Reservation Form Validation Start-->
+                <script type="text/javascript">
+                  $("#reservation_form").validate({
+                    submitHandler: function(form) {
+                      var form_btn = $(form).find('button[type="submit"]');
+                      var form_result_div = '#form-result';
+                      $(form_result_div).remove();
+                      form_btn.before('&amp;lt;div id="form-result" class="alert alert-success" role="alert" style="display: none;"&amp;gt;&amp;lt;/div&amp;gt;');
+                      var form_btn_old_msg = form_btn.html();
+                      form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                      $(form).ajaxSubmit({
+                        dataType:  'json',
+                        success: function(data) {
+                          if( data.status == 'true' ) {
+                            $(form).find('.form-control').val('');
+                          }
+                          Swal.fire({
+                           icon: 'success',
+                           title: "Reservation made!"
+                          })
+                        }
+                      });
+                    }
+                  });
+                </script>
+                <!-- Reservation Form Validation Start -->
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="images/photos/p1.png" class="img-fullwidth" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+@stop
