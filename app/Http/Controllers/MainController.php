@@ -38,7 +38,7 @@ class MainController extends Controller {
 		$signals = $this->helpers->signals;
         $plugins = $this->helpers->getPlugins();
 
-        return view('temp2',compact($params));
+        return view('index',compact($params));
     }
 
 	/**
@@ -114,6 +114,44 @@ class MainController extends Controller {
 
     	return view('about',compact(['user','signals','plugins']));
     }
+
+	/*
+	* Show the application services view to the user.
+	*
+	* @return Response
+	*/
+   public function getServices(Request $request)
+   {
+	  $user = null;
+	  $signals = $this->helpers->signals;
+	  $plugins = $this->helpers->getPlugins();
+
+	   if(Auth::check())
+	   {
+		   $user = Auth::user();
+	   }
+
+	   return view('services',compact(['user','signals','plugins']));
+   }
+
+   /*
+	* Show the application services view to the user.
+	*
+	* @return Response
+	*/
+	public function getGallery(Request $request)
+	{
+	   $user = null;
+	   $signals = $this->helpers->signals;
+	   $plugins = $this->helpers->getPlugins();
+ 
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+ 
+		return view('gallery',compact(['user','signals','plugins']));
+	}
 
 	 /**
 	 * Show the application about view to the user.

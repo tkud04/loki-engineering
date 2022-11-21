@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>@yield('title') | Loki Engineering - More Content Here</title>
+<title><?php echo $__env->yieldContent('title'); ?> | Loki Engineering - More Content Here</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <script type="text/javascript">
@@ -12,7 +12,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
 
-@yield('auto-generated-css')
+<?php echo $__env->yieldContent('auto-generated-css'); ?>
 <link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css?ver=6.0.3' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.3' type='text/css' media='all' />
 <link rel='stylesheet' id='cookie-law-info-css'  href='wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.0.3' type='text/css' media='all' />
@@ -112,7 +112,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
   <?php
    $signup = isset($xx) ? $xx : false;
   ?>
-  @include('header')
+  <?php echo $__env->make('header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
   
 
    <!--------- Session notifications-------------->
@@ -132,17 +132,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
               
              ?> 
 
-                 @if($pop != "" && $val != "")
-                   @include('session-status',['pop' => $pop, 'val' => $val])
-                 @endif
+                 <?php if($pop != "" && $val != ""): ?>
+                   <?php echo $__env->make('session-status',['pop' => $pop, 'val' => $val], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                 <?php endif; ?>
         	<!--------- Input errors -------------->
-                    @if (count($errors) > 0)
-                          @include('input-errors', ['errors'=>$errors])
-                     @endif
+                    <?php if(count($errors) > 0): ?>
+                          <?php echo $__env->make('input-errors', ['errors'=>$errors], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                     <?php endif; ?>
 
-   @yield('content')
+   <?php echo $__env->yieldContent('content'); ?>
 
-  @include('footer')
+  <?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <script>
 			window.RS_MODULES = window.RS_MODULES || {};
@@ -251,3 +251,4 @@ var cmsmasters_theme_script = {"primary_color":"#ef3016"};
 <script type='text/javascript' src='wp-includes/js/comment-reply.min.js?ver=6.0.3' id='comment-reply-js'></script>
 </body>
 </html>
+<?php /**PATH /Users/mac/repos/loki-engineering/resources/views/layout.blade.php ENDPATH**/ ?>

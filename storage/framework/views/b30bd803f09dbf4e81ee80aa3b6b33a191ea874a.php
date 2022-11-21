@@ -17,4 +17,4 @@
             </div>
         </div>
     </div>
-</div>
+</div><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/banner-2.blade.php ENDPATH**/ ?>

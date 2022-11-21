@@ -1,4 +1,3 @@
-<script id="rs-initialisation-scripts">
 		var	tpj = jQuery;
 
 		var	revapi1;
@@ -53,4 +52,3 @@
 		}} // End of RevInitScript
 
 		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
-	</script>

@@ -1,0 +1,180 @@
+	.header_mid .header_mid_inner .logo_wrap {
+		width : 282px;
+	}
+
+	.header_mid_inner .logo img.logo_retina {
+		width : 282px;
+	}
+
+
+			.headline_outer {
+				background-image:url(https://heavy.cmsmasters.net/style-1/wp-content/uploads/sites/5/2019/04/pattern-ic.jpg);
+				background-repeat:no-repeat;
+				background-attachment:scroll;
+				background-size:cover;
+			}
+			
+			.headline_outer:not(.cmsmasters_headline_img_enabled) .headline_color {
+				background-color:#f9f9f9;
+			}
+			
+			.headline_outer:not(.cmsmasters_headline_img_enabled) .cmsmasters_dot:before {
+				background-image:-webkit-linear-gradient(90deg, #f9f9f9 5px, transparent 0px);
+				background-image:-moz-linear-gradient(90deg, #f9f9f9 5px, transparent 0px);
+				background-image:-ms-linear-gradient(90deg, #f9f9f9 5px, transparent 0px);
+				background-image:-o-linear-gradient(90deg, #f9f9f9 5px, transparent 0px);
+				background-image:linear-gradient(90deg, #f9f9f9 5px, transparent 0px);
+			}
+			
+			.headline_outer:not(.cmsmasters_headline_img_enabled) .cmsmasters_dot:after {
+				background-image:-webkit-linear-gradient(0deg, #f9f9f9 5px, transparent 0px);
+				background-image:-moz-linear-gradient(0deg, #f9f9f9 5px, transparent 0px);
+				background-image:-ms-linear-gradient(0deg, #f9f9f9 5px, transparent 0px);
+				background-image:-o-linear-gradient(0deg, #f9f9f9 5px, transparent 0px);
+				background-image:linear-gradient(0deg, #f9f9f9 5px, transparent 0px);
+			}
+			
+			.headline_inner.align_center, 
+			.headline_inner:not(.align_center) .headline_aligner, 
+			.cmsmasters_breadcrumbs_aligner {
+				min-height:110px;
+			}
+			
+
+	.header_top {
+		height : 34px;
+	}
+	
+	.header_mid {
+		height : 150px;
+	}
+	
+	.header_bot {
+		height : 65px;
+	}
+	
+	#page.cmsmasters_heading_after_header #middle, 
+	#page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+		padding-top : 150px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer {
+		padding-top : 184px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 215px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 249px;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_top,
+		.header_mid,
+		.header_bot {
+			height : auto;
+		}
+		
+		.header_mid .header_mid_inner > div {
+			height : 150px;
+		}
+		
+		.header_bot .header_bot_inner > div {
+			height : 65px;
+		}
+		
+		#page.cmsmasters_heading_after_header #middle, 
+		#page.cmsmasters_heading_under_header #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+			padding-top : 0 !important;
+		}
+	}
+	
+	@media only screen and (max-width: 540px) {
+		.header_mid .header_mid_inner > div, 
+		.header_bot .header_bot_inner > div {
+			height:auto;
+		}
+	}
+
+    #cmsmasters_row_7946679653 .cmsmasters_row_outer_parent {
+        padding-top: 70px;
+    }
+    #cmsmasters_heading_41c8b0fa84 {
+        text-align:left;
+        margin-top:0px;
+        margin-bottom:60px;
+    }
+    #cmsmasters_heading_41c8b0fa84 .cmsmasters_heading {
+        text-align:left;
+    }
+    #cmsmasters_heading_41c8b0fa84 .cmsmasters_heading, #cmsmasters_heading_41c8b0fa84 .cmsmasters_heading a {
+    }
+    #cmsmasters_heading_41c8b0fa84 .cmsmasters_heading a:hover {
+    }
+    #cmsmasters_heading_41c8b0fa84 .cmsmasters_heading_divider {
+    }
+    #cmsmasters_heading_4fa83044b6 {
+        text-align:left;
+        margin-top:0px;
+        margin-bottom:60px;
+    }
+    #cmsmasters_heading_4fa83044b6 .cmsmasters_heading {
+        text-align:left;
+    }
+    #cmsmasters_heading_4fa83044b6 .cmsmasters_heading, #cmsmasters_heading_4fa83044b6 .cmsmasters_heading a {
+    }
+    #cmsmasters_heading_4fa83044b6 .cmsmasters_heading a:hover {
+    }
+    #cmsmasters_heading_4fa83044b6 .cmsmasters_heading_divider {
+    }
+    #cmsmasters_row_7b0b558579 .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+    #cmsmasters_row_7b0b558579 .cmsmasters_row_outer_parent {
+        padding-bottom: 0px;
+    }
+    #cmsmasters_divider_d423766c85 {
+        border-bottom-width:1px;
+        border-bottom-style:solid;
+        margin-top:70px;
+        margin-bottom:55px;
+    } #cmsmasters_divider_d423766c85:before {
+    } #cmsmasters_divider_d423766c85:after {
+    }
+    #cmsmasters_row_9a5f52892f .cmsmasters_row_outer_parent {
+        padding-top: 0px;
+    }
+    #cmsmasters_row_9a5f52892f .cmsmasters_row_outer_parent {
+        padding-bottom: 90px;
+    }
+    #cmsmasters_heading_37e1d720eb {
+        text-align:left;
+        margin-top:0px;
+        margin-bottom:60px;
+    }
+    #cmsmasters_heading_37e1d720eb .cmsmasters_heading {
+        text-align:left;
+    }
+    #cmsmasters_heading_37e1d720eb .cmsmasters_heading, #cmsmasters_heading_37e1d720eb .cmsmasters_heading a {
+    }
+    #cmsmasters_heading_37e1d720eb .cmsmasters_heading a:hover {
+    }
+    #cmsmasters_heading_37e1d720eb .cmsmasters_heading_divider {
+    }
+                    #cmsmasters_gallery_7aa57b2157 .cmsmasters_gallery {
+                        margin:0 0 0 -0px;
+                    }
+                    #cmsmasters_gallery_7aa57b2157 .cmsmasters_gallery .cmsmasters_gallery_item {
+                        padding:0 0 0px 0px;
+                    }
