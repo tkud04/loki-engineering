@@ -1,3 +1,13 @@
+<?php
+$urls = [
+    ['url' => '/', 'text' => 'Home'],
+    ['url' => 'about', 'text' => 'About Us'],
+    ['url' => 'services', 'text' => 'What We Do'],
+    ['url' => 'gallery', 'text' => 'Projects Done'],
+    ['url' => 'contact', 'text' => 'Contact Us'],
+];
+
+?>
 <!-- Start Header -->
 <header id="header">
 	<div class="header_top" data-height="34"><div class="header_top_outer"><div class="header_top_inner"><div class="header_top_right">
@@ -32,11 +42,15 @@
 </a>
 </div><div class="resp_mid_nav_wrap"><div class="resp_mid_nav_outer"><a class="responsive_nav resp_mid_nav" href="javascript:void(0)"><span></span></a></div></div><div class="cmsmasters_dynamic_cart_wrap"></div><!-- Start Navigation --><div class="mid_nav_wrap"><nav><div class="menu-primary-navigation-container">
     <ul id="navigation" class="mid_nav navigation">
-      <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3037 menu-item-depth-0"><a href="{{url('/')}}"><span class="nav_item_wrap"><span class="nav_title">Home</span></span></a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087 menu-item-depth-0"><a href="{{url('about')}}"><span class="nav_item_wrap"><span class="nav_title">About Us</span></span></a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087 menu-item-depth-0"><a href="{{url('services')}}"><span class="nav_item_wrap"><span class="nav_title">What We Do</span></span></a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087 menu-item-depth-0"><a href="{{url('gallery')}}"><span class="nav_item_wrap"><span class="nav_title">Projects Done</span></span></a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087 menu-item-depth-0"><a href="{{url('contact')}}"><span class="nav_item_wrap"><span class="nav_title">Contact Us</span></span></a></li>
+      <?php
+       foreach($urls as $u){
+        $currentClass = '';
+        if($currentPage == $u['text']) $currentClass = 'current-menu-ancestor current-menu-parent';
+      ?>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom {{$currentClass}} menu-item-3037 menu-item-depth-0"><a href="{{url($u['url'])}}"><span class="nav_item_wrap"><span class="nav_title">{{$u['text']}}</span></span></a></li>
+      <?php
+       }
+      ?>
     </ul>
 </div>
 </nav>

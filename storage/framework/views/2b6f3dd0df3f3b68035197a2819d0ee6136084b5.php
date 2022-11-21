@@ -1224,4 +1224,4 @@ Architectural works, in the material form of buildings, are often perceived as c
 <!-- Finish Middle -->
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layout',['currentPage' => 'Home'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/index.blade.php ENDPATH**/ ?>

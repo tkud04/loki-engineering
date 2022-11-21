@@ -1,7 +1,7 @@
 <?php
 $void = 'javascript:void(0)';
 ?>
-@extends('layout')
+@extends('layout',['currentPage' => 'About Us'])
 
 @section('title',"About Us")
 

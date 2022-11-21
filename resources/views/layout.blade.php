@@ -112,7 +112,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
   <?php
    $signup = isset($xx) ? $xx : false;
   ?>
-  @include('header')
+  @include('header',['currentPage' => $currentPage ?? 'Home'])
   
 
    <!--------- Session notifications-------------->

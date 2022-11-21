@@ -112,7 +112,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
   <?php
    $signup = isset($xx) ? $xx : false;
   ?>
-  <?php echo $__env->make('header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+  <?php echo $__env->make('header',['currentPage' => $currentPage ?? 'Home'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
   
 
    <!--------- Session notifications-------------->

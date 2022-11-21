@@ -86,4 +86,4 @@ $void = 'javascript:void(0)';
 </div>
 <!-- Finish Middle -->
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/gallery.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layout',['currentPage' => 'Projects Done'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/gallery.blade.php ENDPATH**/ ?>

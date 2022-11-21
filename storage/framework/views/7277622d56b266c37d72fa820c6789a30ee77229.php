@@ -444,4 +444,4 @@ services</span></h4>
 </div>
 <!-- Finish Middle -->
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/services.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layout',['currentPage' => 'What We Do'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mac/repos/loki-engineering/resources/views/services.blade.php ENDPATH**/ ?>
